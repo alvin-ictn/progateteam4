@@ -1,0 +1,341 @@
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/style2.css">
+      <link rel="stylesheet" href="assets/css/style3.css">
+      <link rel="stylesheet" href="assets/css/style4.css">
+      <link rel="stylesheet" href="assets/css/stylesheet2.css">
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <title>Team 4</title>
+   </head>
+   <body>
+      <script type="text/javascript">
+         function switchImg1() {
+           document.getElementById("current-banner").src = "assets/promo-ongkir.png"
+         }
+         function switchImg2() {
+           document.getElementById("current-banner").src = "assets/kami-sehat.png"
+         }
+       </script>
+      <header>
+         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <img class="logo" src="assets/img/logo.png">
+            <ul>
+              <li><a class="active" href="#" class="active">Home</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+         <div class="container">
+            <div id="about">
+                <div class="jumbotron">
+                    <img class="foto-toko" src="assets/img/1.jpg">
+                    <div class="jumbotron-teks">
+                        <h1><span class="judul">Tentang Kami</span></h1>
+                        <p>Raja Kado and Boutique merupakan toko fashion yang berlokasi di Kota Batam, Provinsi Riau.
+                            Kami menjual berbagai macam pakaian, aksesoris, serta kado dengan model menarik dan harga terjangkau. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+      
+      <main>
+         <section>
+            <div class="contact-info">
+               <h1 class="title">Contact US</h1>
+               <form class="contact-form row">
+                  <div class="form-field form-input">
+                     <input id="name" class="input-text trigger-input" type="text" required>
+                     <label class="label" for="name">Name</label>
+                  </div>
+                  <div class="form-field form-input">
+                     <input id="email" class="input-text trigger-input" type="email" required>
+                     <label class="label" for="email">E-mail</label>
+                  </div>
+                  <div class="form-field form-textarea">
+                     <textarea id="textarea_message" class="input-text trigger-input" type="text" onchange="auto_grow(this)" oninput="auto_grow(this)" maxlength="2222" required></textarea>
+                     <label id="message" class="label" for="message">Message</label>
+                  </div>
+                  <div class="form-field form-submit align-center">
+                     <input class="submit-btn" type="submit" value="Submit">
+                  </div>
+               </form>
+            </div>
+         </section>
+      </main>
+      <section>
+         <!DOCTYPE html>
+<html>
+<head>
+  <title>Section 1</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">
+    function switchImg1() {
+      document.getElementById("current-banner").src = "assets/img/promo-ongkir.png"
+    }
+    function switchImg2() {
+      document.getElementById("current-banner").src = "assets/img/kami-sehat.png"
+    }
+  </script>
+</head>
+<body>
+  <main>
+    <!--Banner Section -->
+    <section class="banner-section">
+      <div class="banner-wrapper" id="banner-wrapper">
+        <img src="assets/img/promo-ongkir.png" id="current-banner" class="current-banner">
+      </div>
+      <div class="banner-buttons">
+        <button type="button" onclick="switchImg1()" class="banner-button">1</button>
+        <button type="button" onclick="switchImg2()" class="banner-button">2</button>
+      </div>
+    </section>
+    <!--End of Banner Section-->
+    <!--Product Categories Section (Second Section)-->
+    <section class="categories-section">
+      <h2>OUR PRODUCTS</h2>
+      <ul class="shop-categories">
+        <li class="category dress">
+          <a href="index.html#dresses-jumpsuits"><img src="assets/img/dresses-category.jpg"></a>
+        </li>
+        <li class="category pants">
+          <a href="index.html#all-pants"><img src="assets/img/pants-category.jpg"></a>
+        </li>
+        <li class="category bags">
+          <a href="index.html#bags-accessories"><img src="assets/img/bags-category.jpg"></a>
+        </li>
+      </ul>
+    </section>
+    <!--End of Product Categories Section-->
+    <!--Product Items Section-->
+    <section class="product-section">
+      <h3 id="dresses-jumpsuits">DRESSES & JUMPSUITS</h3>
+      <!--Dresses & Jumpsuits Product List-->
+      <ul class="product-wrapper">
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/dress.jpg">
+            <h4>Najwa Dress</h4>
+            <p class="product-description">Maxi Dress + Hijab</p>
+            <p class="product-price">Rp 200.000</p>
+            <p class="colorsize-description">
+              Available in 5 colors (Size S, M, L)</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/jumpsuit.jpg">
+            <h4>Salwa Jumpsuit</h4>
+            <p class="product-description">Long Jumpsuit + Top</p>
+            <p class="product-price">Rp 250.000</p>
+            <p class="colorsize-description">
+              Available in 4 colors (Size S, M, L)</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+      </ul>
+      <!--End of Dresses & Jumpsuits Product List-->
+      <h3 id="all-pants">PANTS</h3>
+      <!--Pants Product List-->
+      <ul class="product-wrapper">
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/jeans.jpg">
+            <h4>Premium Jeans</h4>
+            <p class="product-description">High Waist Jeans</p>
+            <p class="product-price">Rp 210.000</p>
+            <p class="colorsize-description">
+              Available in 4 types (Size S, M, L)</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/pants1.jpg">
+            <h4>Nora Pants</h4>
+            <p class="product-description">Slimfit Pants</p>
+            <p class="product-price">Rp 100.000</p>
+            <p class="colorsize-description">
+              Available in 4 colors (Size S, M, L)</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/pants2.jpg">
+            <h4>Chelsea Culottes</h4>
+            <p class="product-description">Long Culottes</p>
+            <p class="product-price">Rp 180.000</p>
+            <p class="colorsize-description">
+              Available in 4 colors (Size S, M, L)</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/pants3.jpg">
+            <h4>Heidi Pants</h4>
+            <p class="product-description">Mid-Waist Pants</p>
+            <p class="product-price">Rp 180.000</p>
+            <p class="colorsize-description">
+              Available in 6 colors (Size S, M, L)</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+      </ul>
+      <!--End of Pants Product List-->
+      <h3 id="bags-accessories">BAGS & ACCESSORIES</h3>
+      <!--Bags & Accessories Product List-->
+      <ul class="product-wrapper">
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/bag.jpg">
+            <h4>Instagram Bag</h4>
+            <p class="product-description">Sling Bag Made of Wool</p>
+            <p class="product-price">Rp 70.000</p>
+            <p class="colorsize-description">
+              Available in 4 colors</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/necklace.jpg">
+            <h4>Steffi Necklace</h4>
+            <p class="product-description">Colorful Necklace</p>
+            <p class="product-price">Rp 60.000</p>
+            <p class="colorsize-description">
+              Available in 8 types</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+        <li class="product-container">
+          <div class="product-item">
+            <img src="assets/img/pouch.jpg">
+            <h4>Claire Pouch</h4>
+            <p class="product-description">Beautiful Pouch</p>
+            <p class="product-price">Rp 50.000</p>
+            <p class="colorsize-description">
+              Available in 4 colors</p>
+          </div>
+          <div class="shop-buttons">
+            <a href="#" class="shop-btn order">Order</a>
+            <a href="#" class="shop-btn cart">Add to Cart</a>
+          </div>
+        </li>
+      </ul>
+      <!--End of Bags & Accessories Product List-->
+    </section>
+    <!--End of Product Items Section-->
+    <!--Team Section-->
+    <section class="team-section">
+      <h3 class="team-title">OUR TEAM</h3>
+      <div class="team-wrapper">
+        <ul>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/img/boy.png">
+              <p>Alvin</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/img/girl.png">
+              <p>Velia</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/img/boy.png">
+              <p>Najib</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/img/girl.png">
+              <p>Gaby</p>
+            </div>
+          </li>
+          <li class="team-container">
+            <div class="team-member">
+              <img src="assets/img/boy.png">
+              <p>Yandi</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--End of Team Section-->
+  </main>
+</body>
+</html>
+      </section>
+      <footer>
+         <div class="content">
+           <div class="footer left">
+             <p>Ruko Kurnia Djaja (KDA) Block A No. 20</p>
+             <p>Kelurahan Belian, Kecamatan Batam Kota</p>
+             <p>Kota Batam, Provinsi Kepulauan Riau</p>
+             <p>Indonesia</p>
+           </div>
+         </div>
+       </footer>
+       <div class="contact-info-button">
+         <div class="social-contact">
+            <div class="social-selector">
+               <div class="social soc-instagram">
+                  <div class="social-info"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rajakadoandboutique/">Instagram</a></div>
+                  <img class="social-ico" src="assets/img/instagram.svg"/>
+               </div>
+               <div class="social soc-Whatsapp">
+                  <div class="social-info"><a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=6281282944577">Whatsapp</a></div>
+                  <img class="social-ico" src="assets/img/whatsapp.svg"/>
+               </div>
+            </div>
+         </div>
+         <div class="social-panel">
+            <img class="social-ico" src="assets/img/rounduser.svg"/>
+         </div>
+      </div>
+   </body>
+
+   <foot>
+      <script src="assets/js/index.js"></script>
+   </foot>
+</html>
